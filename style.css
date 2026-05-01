@@ -1,0 +1,84 @@
+.container{
+    margin:auto;
+    width: 80%;
+    padding:5% ;
+}
+.transform h1{
+    font-size: 78px;
+    font-family: sans-serif;
+}
+.transform p{
+    color:gray;
+    font-size: 20px;
+}
+.but1{
+    font-size: 20px;
+    color:white;
+    background-color: black;
+    padding:15px;
+    border-radius: 10px;
+    margin:10px;
+    margin-left: 0;
+}
+.but2{
+    font-size: 20px;
+    background-color:white;
+    padding:15px;
+    border-radius: 10px;
+    margin:10px;
+}
+.transform{
+    height:70%;
+    padding:2%;
+    width: 55%;
+    display: inline-block;
+}
+.transform-img{
+    height:35%;
+    width:35%;
+    display:inline-block;
+    border-radius: 45px;
+    overflow:hidden;
+    vertical-align: baseline;
+}
+img{
+    width:100%;
+    height:100%;
+}
+.why-choose-us{
+    text-align: center;
+    font-family: sans-serif;
+    height:30%;
+    margin-bottom: 30px;
+}
+.why-choose-us h2{
+    font-family: sans-serif;
+    font-size: 54px;
+}
+.why-choose-us p{
+    color:gray;
+}
+.left-box{
+    width:30%;
+    display: inline-block;
+    background-color: rgba(99, 99, 220, 0.858);
+    height:80%;
+    padding:5px;
+    border-radius: 30px;    
+}
+.middle-box{
+    width:30%;
+    display: inline-block;
+    background-color: rgb(128, 245, 128);
+    height:80%;
+    padding:5px;
+    border-radius: 30px;  
+}
+.right-box{
+    width:30%;
+    display:inline-block;
+    background-color: rgb(238, 88, 238);
+    height:80%;
+    padding:5px;
+    border-radius: 30px;  
+}
