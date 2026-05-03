@@ -28,7 +28,7 @@
     margin:10px;
 }
 .transform{
-    height:70%;
+    height:450px;
     padding:2%;
     width: 55%;
     display: inline-block;
@@ -48,8 +48,9 @@ img{
 .why-choose-us{
     text-align: center;
     font-family: sans-serif;
-    height:30%;
-    margin-bottom: 30px;
+    height:450px;
+    width:100%;
+    margin-bottom: 100px;
 }
 .why-choose-us h2{
     font-family: sans-serif;
@@ -57,28 +58,24 @@ img{
 }
 .why-choose-us p{
     color:gray;
+    margin-bottom: 30px;
 }
-.left-box{
-    width:30%;
-    display: inline-block;
-    background-color: rgba(99, 99, 220, 0.858);
-    height:80%;
-    padding:5px;
-    border-radius: 30px;    
+.box{
+    width: 30%;
+    display: inline-block;   
 }
-.middle-box{
-    width:30%;
-    display: inline-block;
-    background-color: rgb(128, 245, 128);
-    height:80%;
-    padding:5px;
-    border-radius: 30px;  
+.inner-item{
+    height:300px;
 }
-.right-box{
-    width:30%;
-    display:inline-block;
-    background-color: rgb(238, 88, 238);
-    height:80%;
-    padding:5px;
-    border-radius: 30px;  
+.bg1{
+    background-color: blueviolet;
+}
+.bg2{
+    background-color: aqua;
+}
+.bg3{
+    background-color: antiquewhite;
+}
+.more-gym{
+    height:10%;
 }
