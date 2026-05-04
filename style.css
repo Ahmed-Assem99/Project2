@@ -1,81 +1,233 @@
+.clear{
+    clear: both;
+}
 .container{
     margin:auto;
     width: 80%;
     padding:5% ;
 }
+/* -------------Hero Section------------------------- */
+.transform-items{
+    width: 85%;
+    padding: 20px;
+    margin: auto;
+    font-family: sans-serif;
+}
+.transform{
+    width: 60%;
+    float: left;
+    height: 500px;
+    margin-bottom: 60px;
+}
+.inner-transform{
+    width: 90%;
+}
 .transform h1{
-    font-size: 78px;
+    font-size: 60px;
     font-family: sans-serif;
 }
 .transform p{
-    color:gray;
-    font-size: 20px;
+    color:#4A5565;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 100;
 }
 .but1{
-    font-size: 20px;
+    font-size: 16px;
     color:white;
     background-color: black;
-    padding:15px;
+    padding:20px 32px;
     border-radius: 10px;
-    margin:10px;
-    margin-left: 0;
+    border: 1.5px solid #d0d5e8;
 }
 .but2{
-    font-size: 20px;
+    font-size: 16px;
     background-color:white;
-    padding:15px;
+    padding:20px 32px;
     border-radius: 10px;
-    margin:10px;
-}
-.transform{
-    height:450px;
-    padding:2%;
-    width: 55%;
-    display: inline-block;
+    border: 1.5px solid #d0d5e8;
+    margin-left: 10px;
 }
 .transform-img{
-    height:35%;
+    margin-top: 30px;
     width:35%;
-    display:inline-block;
+    float: left;
+    margin-left: 20px;
+}
+.inner-img{
     border-radius: 45px;
     overflow:hidden;
-    vertical-align: baseline;
 }
 img{
     width:100%;
-    height:100%;
 }
+/* --------------Why Choose Section------------------------- */
+
 .why-choose-us{
     text-align: center;
     font-family: sans-serif;
     height:450px;
     width:100%;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
-.why-choose-us h2{
-    font-family: sans-serif;
-    font-size: 54px;
+.why-choose-us-heading{
+width: 80%;
+margin: auto;
+padding: 10px;
+margin-bottom: 10px;
 }
-.why-choose-us p{
-    color:gray;
-    margin-bottom: 30px;
+.why-choose-us-heading h2{
+    font-size: 40px;
+    margin-bottom: 20px;
 }
-.box{
-    width: 30%;
-    display: inline-block;   
+.why-choose-us-heading p{
+    color:#4A5565;
+    margin:auto;
+    font-size: 25px;
+    font-weight: 100;
+}
+.why-boxes h4{
+    font-size:22px;
+}
+.why-boxes p{
+    font-weight: 100;
+}
+.why-boxes{
+padding: 10px;
+width: 85%;
+margin: auto;
 }
 .inner-item{
-    height:300px;
+    width: 33.3333%;
+    float: left;
+}
+.box{
+    border-radius: 22px;
+    padding: 20px;
+    width: 80%;
 }
 .bg1{
-    background-color: blueviolet;
+    background-color: #DBEAFF;
 }
 .bg2{
-    background-color: aqua;
+    background-color: #D1FAE4;
 }
 .bg3{
-    background-color: antiquewhite;
+    background-color: #F3E7FF;
 }
+.bg1 .small-box{
+    background-color: #165DFC;
+}
+.bg2 .small-box{
+    background-color: #009866;
+}
+.bg3 .small-box{
+    background-color: #990FFA;
+}
+.small-box{
+    width:70px;
+    height:70px;
+    border-radius: 10px;
+    margin:auto;
+}
+.smaller-box{
+    width:35px;
+    height:35px;
+    border-radius: 10px;
+    background-color: white;
+    top: 25%;
+    left:25%;
+    position: relative;
+
+}
+.bg2 .smaller-box{
+    border-radius: 50px;
+}
+/* -------------------More Than a Gym Section------------------ */
 .more-gym{
-    height:10%;
+    width: 85%;
+    margin: auto;
 }
+.inner-more{
+    width:50%;
+    float:left;
+}
+.more-img{
+    width: 90%;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.more-gym h2{
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+.more-items dl{
+    line-height: 30px;
+    font-family: sans-serif;
+}
+.more-items dt{
+    font-weight: 700;
+    font-size: 20px;
+}
+.more-items dd{
+    font-size: 18px;
+    margin-left: 0;
+    font-weight: 100;
+}
+.more-items .list-grouping{
+    padding-left: 20px;
+    border-left: 4px solid ;
+    margin:8px 0px;
+    margin-left: 0;
+}
+/* ------------------Members Section-------------------------- */
+.members{
+    background-color:#F9FAFB;
+    width: 100%;
+    height: 900px;
+}
+.members-heading{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.members-heading h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.members-heading p{
+        color:#4A5565;
+    margin:auto;
+    font-size: 25px;
+    font-weight: 100;
+}
+.members-section{
+    width: 85%;
+    margin: auto;
+}
+.members-inner{
+    width:33.333%;
+    float: left;
+}
+.box-heading{
+    width: 100%;
+    margin: auto;
+}
+
+.box-img{
+    float: left;
+    height:64px;
+    width: 64px;
+    border-radius: 30px;
+    overflow:hidden;
+    margin-right: 16px;
+}
+.box-text{
+    width: 100%;
+    font-family: sans-serif;
+}
+
