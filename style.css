@@ -4,7 +4,7 @@
 .container{
     margin:auto;
     width: 80%;
-    padding:5% ;
+    padding:12px ;
 }
 /* -------------Hero Section------------------------- */
 .transform-items{
@@ -88,6 +88,7 @@ margin-bottom: 10px;
 }
 .why-boxes h4{
     font-size:22px;
+    color: #111828;
 }
 .why-boxes p{
     font-weight: 100;
@@ -108,12 +109,15 @@ margin: auto;
 }
 .bg1{
     background-color: #DBEAFF;
+    border: 3px solid #BEDBFF;
 }
 .bg2{
     background-color: #D1FAE4;
+    border: 3px solid #A4F4D0;
 }
 .bg3{
     background-color: #F3E7FF;
+    border: 3px solid #E9D4FF;
 }
 .bg1 .small-box{
     background-color: #165DFC;
@@ -185,7 +189,7 @@ margin: auto;
 .members{
     background-color:#F9FAFB;
     width: 100%;
-    height: 900px;
+    padding: 20px 0px;
 }
 .members-heading{
     width: 80%;
@@ -200,7 +204,7 @@ margin: auto;
     margin-bottom: 20px;
 }
 .members-heading p{
-        color:#4A5565;
+    color:#4A5565;
     margin:auto;
     font-size: 25px;
     font-weight: 100;
@@ -208,26 +212,308 @@ margin: auto;
 .members-section{
     width: 85%;
     margin: auto;
+    margin-bottom: 300px;
 }
 .members-inner{
     width:33.333%;
-    float: left;
+    float: left;;
+}
+.members-inner .box{
+    padding:30px;
+    height: 150px;
 }
 .box-heading{
-    width: 100%;
+    width: 90%;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .box-img{
     float: left;
-    height:64px;
-    width: 64px;
+    height:56px;
+    width: 56px;
     border-radius: 30px;
     overflow:hidden;
     margin-right: 16px;
 }
 .box-text{
-    width: 100%;
+    width: 80%;
     font-family: sans-serif;
 }
+.box-text h3{
+    margin: 0px;
+}
+.box-text h5{
+    margin:5px 0px;
+    font-weight: 100; 
+    font-size: 14px;
+}
+.box span{
+    width: 90%;
+    font-weight: 100;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+.members-nums{
+    width: 85%;
+    margin: auto;
+    background-color: #F1F5F9;
+    border-radius: 40px;
+    border: 3px solid #E2E8F1;
+}
+.inner-nums{
+    width: 25%;
+    float: left;
+}
+.nums-text{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.nums-text h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.nums-text h4{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 3px;
+}
+/* ---------------Form Section---------------------- */
+
+.form-heading{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+.form-heading h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.form-heading p{
+    color:#4A5565;
+    margin:auto;
+    font-size: 25px;
+    font-weight: 100;
+}
+.form-data{
+    background-color: #F9FAFB;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    height:870px;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.form-padding{
+    width: 90%;
+    margin: auto;
+}
+.form-data label{
+    font-size: 20px;
+}
+.fname{
+    float: left;
+    width: 49%;
+    margin: auto;
+    margin: 20px 5px;
+}
+#firstName{
+    width: 100%;
+    height: 60px;
+    background-color: #F9FAFB;
+    border: 1.5px solid #D1D5DB;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+#lastName{
+    width: 100%;
+    height: 60px;
+    background-color: #F9FAFB;
+    border: 1.5px solid #D1D5DB;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+#emailAddress{
+    width: 100%;
+    height: 60px;
+    background-color: #F9FAFB;
+    border: 1.5px solid #D1D5DB;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+#userPhone{
+     width: 100%;
+    height: 60px;
+    background-color: #F9FAFB;
+    border: 1.5px solid #D1D5DB;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+#userMembership{
+     width: 100%;
+    height: 60px;
+    background-color: #F9FAFB;
+    border: 1.5px solid #D1D5DB;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+#userFitness{
+    width: 100%;
+    height: 100px;
+    background-color: #F9FAFB;
+    border: 1.5px solid #D1D5DB;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lname{
+     float: left;
+    width: 48%;
+    margin: auto;
+    margin: 20px 5px;
+}
+.email{
+float: left;
+width: 99%;
+margin: auto;
+margin:20px 5px;
+}
+.phone-number{
+float: left;
+width: 99%;
+margin: auto;
+margin:20px 5px;
+}
+.membership{
+float: left;
+width: 99%;
+margin: auto;
+margin:20px 5px;
+}
+.fitnessgoals{
+float: left;
+width: 99%;
+margin: auto;
+margin:20px 5px;
+}
+.form-footing{
+    width: 100%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fitnessbutton{
+    width: 100%;
+    font-size: 22px;
+    color:white;
+    background-color: black;
+    padding:20px 32px;
+    border-radius: 10px;
+    border: 1.5px solid #d0d5e8;
+}
+.form-footing p{
+    text-align: center;
+    font-size: 14px;
+    color: #4A5565;
+}
+
+/* ----------------------------Footing---------------------- */
+
+.footing{
+    background-color: #111828;
+    width: 100%;
+    height: 450px;
+}
+.innerfooting{
+    width: 85%;
+    margin: auto;
+}
+.footing h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+}
+.footing h3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+.footing h4{
+    font-weight: 100;
+    color: #99A1AF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+.footing p{
+    font-weight: 100;
+    color: #99A1AF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footing h5{
+    font-weight: 100;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+.footing .f1 a, .footing .f2 a{
+    color:#99A1AF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 10px;
+}
+.f1{
+    float: left;
+    width: 50%;
+}
+.f2{
+    float: left;
+    width: 25%;
+}
+.f2 h4{
+    margin: 3px;
+}
+.f3{
+    float: left;
+    width: 25%; 
+}
+hr{
+    border: none;
+    border-top: 2px solid #364152;
+    margin-top: 20px;
+}
+.footing-left{
+    float:left;
+    width: 45%;
+    text-align: left;
+    font-size: 12px;
+}
+.footing-right{
+    float: right;
+    width: 45%;
+    text-align: right;
+}
+.footing-right a{
+    color:#99A1AF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin:10px;
+    font-size: 12px;
+}
+
 
